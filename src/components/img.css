@@ -1,0 +1,151 @@
+.about-img {
+    position: relative;
+    width: 25rem;
+    height: 25rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+}
+
+.about-img img {
+    width: 90%;
+    border-radius: 50%;
+    border: .2rem solid var(--main-color);
+}
+
+.p {
+    width: 100px;
+}
+
+.about-content h3 {
+    font-size: 20px;
+    line-height: 70px;
+}
+
+
+.about-content p {
+    font-size: 20px;
+}
+
+.boximg {
+    display: flex;
+    flex-flow: nowrap;
+    align-items: center;
+}
+
+
+.auto{
+    display: inline-block;
+    width: 500px;
+}
+.auto div{
+    background: var(--bg-color);  
+    overflow: hidden;  
+    padding: 20px;
+    margin-left: 50px;
+    padding: 30px;
+}
+.auto div img{
+    opacity: 1;
+    transition: opacity 124ms linear, transform 124ms linear;  
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 40px 40px;
+    
+}
+.auto:hover div img{
+    opacity: 0.5; 
+    transform: scale(1.05); 
+}
+.auto + .auto div{
+    background: var(--bg-color); 
+}
+
+.auto2{
+    display: inline-block;
+    width: 500px;
+    
+}
+.auto2 div{
+    background: var(--bg-color);  
+    overflow: hidden;  
+    padding: 20px;
+    margin-left: 50px;
+    padding: 30px;
+
+}
+.auto2 div img{
+    opacity: 1;
+    transition: opacity 124ms linear, transform 124ms linear;  
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 40px 40px;
+}
+.auto2:hover div img{
+    opacity: 0.5; 
+    transform: scale(1.05); 
+}
+.auto2 + .auto div{
+    background: var(--bg-color); 
+}
+
+.auto3{
+    display: inline-block;
+    width: 500px;
+    
+}
+.auto3 div{
+    background: var(--bg-color);  
+    overflow: hidden;  
+    padding: 20px;
+    margin-left: 50px;
+    padding: 30px;
+}
+.auto3 div img{
+    opacity: 1;
+    transition: opacity 124ms linear, transform 124ms linear;  
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 40px 40px;
+    
+}
+.auto3:hover div img{
+    opacity: 0.5; 
+    transform: scale(1.05); 
+}
+.auto3 + .auto div{
+    background: var(--bg-color); 
+}
+
+.auto4{
+    display: flex;
+    width: 500px;
+}
+.auto4 div{
+    background: var(--bg-color);  
+    overflow: hidden;  
+    padding: 20px;
+    margin-left: 50px;
+    padding: 30px;
+}
+.auto4 div img{
+    opacity: 1;
+    transition: opacity 124ms linear, transform 124ms linear;  
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 40px 40px;
+    
+}
+.auto4:hover div img{
+    opacity: 0.5; 
+    transform: scale(1.05); 
+}
+.auto4 + .auto div{
+    background: var(--bg-color); 
+}
+
